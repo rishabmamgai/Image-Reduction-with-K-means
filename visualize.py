@@ -2,6 +2,7 @@ from data import load_data
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 def plot_features():
     X = load_data("features.mat")
     X = np.array(X)
