@@ -1,4 +1,3 @@
-from pathlib import PosixPath
 from model import distortion_function, Kmeans
 from extract_image import get_pixel_mat, get_image
 from visualize import plot_clusters
