@@ -34,6 +34,3 @@ def plot_clusters(X, cluster_loc, centroids):
                 plt.plot_date(X[i, 0], X[i, 1], c="green")
 
     plt.show()
-
-
-        
